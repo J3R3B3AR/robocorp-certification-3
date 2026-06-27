@@ -1,0 +1,14 @@
+tasks:
+  Produce data:
+    shell: python -m robocorp.tasks run producer.py
+  Consume data:
+    shell: python -m robocorp.tasks run consumer.py
+
+condaConfigFile: conda.yaml
+
+artifactsDir: output
+
+PATH:
+  - .
+PYTHONPATH:
+  - .
