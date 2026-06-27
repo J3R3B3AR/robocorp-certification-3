@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  - uv=0.8.13
+  - pip:
+      - rpaframework==30.0.2
+      - robocorp==3.0.0
+      - requests==2.32.3
