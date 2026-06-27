@@ -1,5 +1,7 @@
 # Traffic Data Work Items — Robocorp Level III Certification
 
+![Demo](robocorp-cert-iii-demo.gif)
+
 A producer-consumer RPA bot built with Robocorp and Python that automates an ETL pipeline for **Inhuman Insurance, Inc.** — fetching global road traffic fatality data from a public API, transforming it into business-ready records, and posting each record to an insurance sales system API via work items. This is the **Automation Certification Level III** project.
 
 No browser automation. Pure API and data processing.
